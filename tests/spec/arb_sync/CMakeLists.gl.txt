@@ -11,6 +11,7 @@ link_libraries (
 )
 
 piglit_add_executable (arb_sync-client-wait-errors ClientWaitSync-errors.c)
+piglit_add_executable (arb_sync-client-wait-returns ClientWaitSync-returns.c)
 piglit_add_executable (arb_sync-delete DeleteSync.c)
 piglit_add_executable (arb_sync-fence-sync-errors FenceSync-errors.c)
 piglit_add_executable (arb_sync-get-sync-errors GetSynciv-errors.c)
