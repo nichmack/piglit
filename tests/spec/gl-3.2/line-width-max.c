@@ -34,7 +34,6 @@
 PIGLIT_GL_TEST_CONFIG_BEGIN
 
 	config.supports_gl_core_version = 32;
-	config.supports_gl_compat_version = 32;
 
 PIGLIT_GL_TEST_CONFIG_END
 
