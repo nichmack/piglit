@@ -11,5 +11,6 @@ link_libraries (
 
 piglit_add_executable (instanced_arrays instanced_arrays.c)
 piglit_add_executable (vertex-attrib-divisor-index-error vertex-attrib-divisor-index-error.c)
+piglit_add_executable (vertex-attrib-divisor-query vertex-attrib-divisor-query.c)
 
 # vim: ft=cmake:
